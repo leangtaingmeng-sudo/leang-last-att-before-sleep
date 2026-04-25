@@ -8,7 +8,7 @@ bot = Bot(token=TOKEN)
 
 def handle_response(text:str)->str:
     if text.lower() == 'hi':
-        return "hi from da web"
+        return "hi from da webbb"
     return "fuck u nigger"
 @app.post("/api/webhook")
 async def webhook_handler(request: Request):
